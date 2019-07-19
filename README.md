@@ -64,7 +64,7 @@ A universal meta algorithm for machine learning projects - executed by myself.
 1. Choose hyperparameters of model 
 2. Choose hyperparameters of loss-function 
 3. Choose hyperparameters of learning-algorithm  
-4. Choose samplesize
+4. Choose sample size
 
 ## Step 15: Fit model 
 
@@ -76,7 +76,7 @@ A universal meta algorithm for machine learning projects - executed by myself.
 2.Evaluate model on training and cross-validation set
 3.Check bias/underfitting and variance/overfitting
 
-## Go to: step 14
+## Go to: Step 14
 
 ## Step 17: Choose hyperparameter with best cross-validation score
 
@@ -90,4 +90,4 @@ A universal meta algorithm for machine learning projects - executed by myself.
 
 ## Step 21: Interpret model (optional)
 
-## Step 22: Deploy/save model
+## Step 22: Deploy / save model
