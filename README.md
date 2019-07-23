@@ -47,12 +47,14 @@ A universal meta algorithm for machine learning projects - executed by myself.
 3. Interpret components
 4. Compress data
 
-## Step 12: Split data
+## Step 12: Apply Kernelfunction (optional)
+
+## Step 13: Split data
 - Training data: 70%
 - Validation data: 15%
 - Test data: 15%
 
-## Step 13: Choose model, loss-function, learning-algorithm
+## Step 14: Choose model, loss-function, learning-algorithm
 1. Choose Model
 1. Supervised regression: linear model 
 1. Supervised classification: logistic model, svm, decision trees, naive bayes, neural network 
@@ -60,15 +62,15 @@ A universal meta algorithm for machine learning projects - executed by myself.
 2. Choose loss-function
 3. Choose learning-algorithm 
 
-## Step 14: Choose hyperparameters:
+## Step 15: Choose hyperparameters:
 1. Choose hyperparameters of model 
 2. Choose hyperparameters of loss-function 
 3. Choose hyperparameters of learning-algorithm  
 4. Choose sample size
 
-## Step 15: Fit model 
+## Step 16: Fit model 
 
-## Step 16: Evaluate model
+## Step 17: Evaluate model
 1.Choose metric
 1.Classification: accuracy, precision, recall, F-Score, loss
 1.Regression: (adjusted) correlation coefficient, sum of squared resiudal
@@ -76,18 +78,18 @@ A universal meta algorithm for machine learning projects - executed by myself.
 2.Evaluate model on training and cross-validation set
 3.Check bias/underfitting and variance/overfitting
 
+## Go to: Step 15
+
+## Step 18: Choose hyperparameter with best cross-validation score
+
 ## Go to: Step 14
 
-## Step 17: Choose hyperparameter with best cross-validation score
+## Step 19: Choose model, loss-function and learning-algorithm with best cross-validation score
 
-## Go to: Step 13
+## Step 20: Evaluate model on test data
 
-## Step 18: Choose model, loss-function and learning-algorithm with best cross-validation score
+## Step 21: Sanity check model by inferencing on random example (optional)
 
-## Step 19: Evaluate model on test data
+## Step 22: Interpret model (optional)
 
-## Step 20: Sanity check model by inferencing on random example (optional)
-
-## Step 21: Interpret model (optional)
-
-## Step 22: Deploy / save model
+## Step 23: Deploy / save model
